@@ -1,0 +1,30 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+     <meta charset="UTF-8">  
+     <title>Index</title>  
+        
+</head>  
+<body>  
+<form method="POST" action="/emp">  
+{% csrf_token %}  
+<br>   
+<h3>Enter Details</h3>  
+    
+Employee Empolyee_name:
+ {{ form.Empolyee_name }}  
+
+Age :
+   {{ form.Empolyee_name }}
+       
+Email:
+{{ form.email }} 
+ 
+Contact :
+{{ form.contact }}  
+ 
+        <button type="submit" Submit </button>  
+        
+    </form>  
+    </body>  
+    </html>  
