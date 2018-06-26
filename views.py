@@ -5,8 +5,8 @@ from django.shortcuts import render
 
 # Create your views here.
 from django.shortcuts import render, redirect  
-from Employee.forms import EmployeeForm  
-from employee.models import Employee  
+from EmployeeDetails.forms import EmployeeForm  
+from Employeeapp.models import Employee  
 # Create your views here.  
 def CreatEmpData(request):  
     if request.method == "POST":  
